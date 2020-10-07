@@ -11,7 +11,7 @@ document.addEventListener('DOMContentLoaded', function(){
     let div = [];
     div[i] = document.createElement("div");
     div[i].id = id_cajas;
-    div[i].innerHTML = i;
+    // div[i].innerHTML = i;
 
     document.getElementById("contenedor").appendChild(div[i]);
  
